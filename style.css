@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+}
+body {
+    background: rgb(8, 192, 125);
+    font-size: 18px;
+    color: #fff;
+}
+
+.widget{
+    width: 40%;
+    height: 40%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.widget p {
+    display: inline-block;
+    line-height: 1em;
+}
+
+.fecha {
+    font-family: arial;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 5px;
+    background: rgba(0, 0, 0, .5);
+    padding: 20px;
+    width: 100%;
+}
+
+#contReloj {
+    width: 40%;
+    height: 40%;
+    position: center;
+    padding-top: 400px;
+    margin: auto;
+}
+
+#contReloj p {
+    display: inline-block;
+    line-height: 1em;
+}
+
+.reloj {
+    font-family: arial;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 5px;
+    background: rgba(0, 0, 0, .5);
+    padding: 20px;
+    width: 100%;
+}
+
+#contSaludo {
+    width: 40%;
+    height: 40%;
+    position: center;
+    padding-top: 100px;
+    margin: auto;
+}
+
+#contSaludo p {
+    display: inline-block;
+    line-height: 1em;
+}
+
+.saludo {
+    font-family: arial;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 5px;
+    background: rgba(0, 0, 0, .5);
+    padding: 20px;
+    width: 100%;
+}
